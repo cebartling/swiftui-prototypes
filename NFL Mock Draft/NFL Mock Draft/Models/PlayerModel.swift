@@ -16,4 +16,8 @@ struct Player: Codable, Identifiable {
     let weightInKilograms: Double
     let pros: [String]
     let cons: [String]
+
+    var fullName: String { return "\(lastName), \(firstName)" }
+    var formattedHeight: String { return "\(heightInCentimeters) cm" }
+    var formattedWeight: String { return "\(weightInKilograms) kg" }
 }

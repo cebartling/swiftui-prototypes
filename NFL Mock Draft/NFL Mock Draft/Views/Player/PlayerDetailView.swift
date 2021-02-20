@@ -13,7 +13,7 @@ struct PlayerDetailView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 6, content: {
             HStack(alignment: .top, content: {
-                Text("\(player.lastName), \(player.firstName)")
+                Text(player.fullName)
                     .font(.title2)
                     .fontWeight(.heavy)
 
@@ -35,13 +35,13 @@ struct PlayerDetailView: View {
                 .padding(.bottom, 4)
 
             HStack(alignment: .top, content: {
-                Text("\(player.heightInCentimeters) cm")
+                Text(player.formattedHeight)
                     .font(.subheadline)
                     .fontWeight(.medium)
 
                 Spacer()
 
-                Text("\(player.weightInKilograms) kg")
+                Text(player.formattedWeight)
                     .font(.subheadline)
                     .fontWeight(.medium)
             })
