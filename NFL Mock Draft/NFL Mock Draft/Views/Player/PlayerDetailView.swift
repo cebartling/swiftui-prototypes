@@ -49,34 +49,11 @@ struct PlayerDetailView: View {
                 .padding(.top, 4)
                 .padding(.bottom, 4)
 
-            HStack(alignment: .top) {
-                Text("Pros")
-                    .font(.title3)
-                    .fontWeight(.semibold)
-                    .foregroundColor(.gray)
-            }
-            .padding(.horizontal)
-            .padding(.top, 20)
-            .padding(.bottom, 4)
             
-            ForEach(player.pros, id: \.self) { pro in
-                ProView(pro: pro)
-            }
 
-            HStack(alignment: .top) {
-                Text("Cons")
-                    .font(.title3)
-                    .fontWeight(.semibold)
-                    .foregroundColor(.gray)
-            }
-            .padding(.horizontal)
-            .padding(.top, 20)
-            .padding(.bottom, 4)
-
-            ForEach(player.cons, id: \.self) { con in
-                ConView(con: con)
-            }
-
+            
+            ConsView(cons: player.cons)
+            
             Spacer()
         })
     }

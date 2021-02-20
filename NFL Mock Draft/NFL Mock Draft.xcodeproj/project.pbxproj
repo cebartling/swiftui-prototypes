@@ -19,8 +19,8 @@
 		83A50F5D25E0BBE1002AB752 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A50F5C25E0BBE1002AB752 /* Constants.swift */; };
 		83A50F6625E0BC5B002AB752 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A50F6525E0BC5B002AB752 /* CodableBundleExtension.swift */; };
 		83A50F6D25E0BCC4002AB752 /* PlayerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A50F6C25E0BCC4002AB752 /* PlayerDetailView.swift */; };
-		83A50F7225E0E92F002AB752 /* ProView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A50F7125E0E92F002AB752 /* ProView.swift */; };
-		83A50F7725E0EBF9002AB752 /* ConView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A50F7625E0EBF9002AB752 /* ConView.swift */; };
+		83A50F7225E0E92F002AB752 /* ProsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A50F7125E0E92F002AB752 /* ProsView.swift */; };
+		83A50F7725E0EBF9002AB752 /* ConsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A50F7625E0EBF9002AB752 /* ConsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +59,8 @@
 		83A50F5C25E0BBE1002AB752 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		83A50F6525E0BC5B002AB752 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		83A50F6C25E0BCC4002AB752 /* PlayerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailView.swift; sourceTree = "<group>"; };
-		83A50F7125E0E92F002AB752 /* ProView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProView.swift; sourceTree = "<group>"; };
-		83A50F7625E0EBF9002AB752 /* ConView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConView.swift; sourceTree = "<group>"; };
+		83A50F7125E0E92F002AB752 /* ProsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProsView.swift; sourceTree = "<group>"; };
+		83A50F7625E0EBF9002AB752 /* ConsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,8 +196,8 @@
 			isa = PBXGroup;
 			children = (
 				83A50F6C25E0BCC4002AB752 /* PlayerDetailView.swift */,
-				83A50F7125E0E92F002AB752 /* ProView.swift */,
-				83A50F7625E0EBF9002AB752 /* ConView.swift */,
+				83A50F7125E0E92F002AB752 /* ProsView.swift */,
+				83A50F7625E0EBF9002AB752 /* ConsView.swift */,
 			);
 			path = Player;
 			sourceTree = "<group>";
@@ -335,9 +335,9 @@
 				83A50F5D25E0BBE1002AB752 /* Constants.swift in Sources */,
 				83A20C7525D79A1C001D6250 /* ContentView.swift in Sources */,
 				83A50F6D25E0BCC4002AB752 /* PlayerDetailView.swift in Sources */,
-				83A50F7725E0EBF9002AB752 /* ConView.swift in Sources */,
+				83A50F7725E0EBF9002AB752 /* ConsView.swift in Sources */,
 				83A50F6625E0BC5B002AB752 /* CodableBundleExtension.swift in Sources */,
-				83A50F7225E0E92F002AB752 /* ProView.swift in Sources */,
+				83A50F7225E0E92F002AB752 /* ProsView.swift in Sources */,
 				83A20C7325D79A1C001D6250 /* NFL_Mock_DraftApp.swift in Sources */,
 				83A20CA825D79B6D001D6250 /* PlayerModel.swift in Sources */,
 				83A20CA325D79B01001D6250 /* TeamModel.swift in Sources */,
