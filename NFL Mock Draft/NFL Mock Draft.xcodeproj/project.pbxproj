@@ -15,6 +15,12 @@
 		83A20C9025D79A1C001D6250 /* NFL_Mock_DraftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A20C8F25D79A1C001D6250 /* NFL_Mock_DraftUITests.swift */; };
 		83A20CA325D79B01001D6250 /* TeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A20CA225D79B01001D6250 /* TeamModel.swift */; };
 		83A20CA825D79B6D001D6250 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A20CA725D79B6D001D6250 /* PlayerModel.swift */; };
+		83A50F5725E0B8F7002AB752 /* players.json in Resources */ = {isa = PBXBuildFile; fileRef = 83A50F5625E0B8F7002AB752 /* players.json */; };
+		83A50F5D25E0BBE1002AB752 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A50F5C25E0BBE1002AB752 /* Constants.swift */; };
+		83A50F6625E0BC5B002AB752 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A50F6525E0BC5B002AB752 /* CodableBundleExtension.swift */; };
+		83A50F6D25E0BCC4002AB752 /* PlayerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A50F6C25E0BCC4002AB752 /* PlayerDetailView.swift */; };
+		83A50F7225E0E92F002AB752 /* ProView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A50F7125E0E92F002AB752 /* ProView.swift */; };
+		83A50F7725E0EBF9002AB752 /* ConView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A50F7625E0EBF9002AB752 /* ConView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		83A20C9125D79A1C001D6250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83A20CA225D79B01001D6250 /* TeamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamModel.swift; sourceTree = "<group>"; };
 		83A20CA725D79B6D001D6250 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		83A50F5625E0B8F7002AB752 /* players.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = players.json; sourceTree = "<group>"; };
+		83A50F5C25E0BBE1002AB752 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		83A50F6525E0BC5B002AB752 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		83A50F6C25E0BCC4002AB752 /* PlayerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailView.swift; sourceTree = "<group>"; };
+		83A50F7125E0E92F002AB752 /* ProView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProView.swift; sourceTree = "<group>"; };
+		83A50F7625E0EBF9002AB752 /* ConView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,9 @@
 		83A20C7125D79A1C001D6250 /* NFL Mock Draft */ = {
 			isa = PBXGroup;
 			children = (
+				83A50F6A25E0BC99002AB752 /* Views */,
+				83A50F6425E0BC03002AB752 /* Extensions */,
+				83A50F5B25E0BBC8002AB752 /* Utilities */,
 				83A20CAC25D79C5C001D6250 /* Data */,
 				83A20CA125D79ADE001D6250 /* Models */,
 				83A20C7225D79A1C001D6250 /* NFL_Mock_DraftApp.swift */,
@@ -148,8 +163,43 @@
 		83A20CAC25D79C5C001D6250 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				83A50F5625E0B8F7002AB752 /* players.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		83A50F5B25E0BBC8002AB752 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				83A50F5C25E0BBE1002AB752 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		83A50F6425E0BC03002AB752 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				83A50F6525E0BC5B002AB752 /* CodableBundleExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		83A50F6A25E0BC99002AB752 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				83A50F6B25E0BCAE002AB752 /* Player */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		83A50F6B25E0BCAE002AB752 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				83A50F6C25E0BCC4002AB752 /* PlayerDetailView.swift */,
+				83A50F7125E0E92F002AB752 /* ProView.swift */,
+				83A50F7625E0EBF9002AB752 /* ConView.swift */,
+			);
+			path = Player;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +307,7 @@
 			files = (
 				83A20C7A25D79A1C001D6250 /* Preview Assets.xcassets in Resources */,
 				83A20C7725D79A1C001D6250 /* Assets.xcassets in Resources */,
+				83A50F5725E0B8F7002AB752 /* players.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +332,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A50F5D25E0BBE1002AB752 /* Constants.swift in Sources */,
 				83A20C7525D79A1C001D6250 /* ContentView.swift in Sources */,
+				83A50F6D25E0BCC4002AB752 /* PlayerDetailView.swift in Sources */,
+				83A50F7725E0EBF9002AB752 /* ConView.swift in Sources */,
+				83A50F6625E0BC5B002AB752 /* CodableBundleExtension.swift in Sources */,
+				83A50F7225E0E92F002AB752 /* ProView.swift in Sources */,
 				83A20C7325D79A1C001D6250 /* NFL_Mock_DraftApp.swift in Sources */,
 				83A20CA825D79B6D001D6250 /* PlayerModel.swift in Sources */,
 				83A20CA325D79B01001D6250 /* TeamModel.swift in Sources */,

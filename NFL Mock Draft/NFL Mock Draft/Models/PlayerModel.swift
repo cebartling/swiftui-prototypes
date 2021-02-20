@@ -7,9 +7,13 @@
 
 import Foundation
 
-struct Player: Identifiable {
-    var id = UUID()
-    var firstName: String
-    var lastName: String
-    var position: String
+struct Player: Codable, Identifiable {
+    let id: Int
+    let firstName: String
+    let lastName: String
+    let position: String
+    let heightInCentimeters: Double
+    let weightInKilograms: Double
+    let pros: [String]
+    let cons: [String]
 }

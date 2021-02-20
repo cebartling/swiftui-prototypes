@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "firstName": "Samuel",
+        "lastName": "Cosmi",
+        "position": "Tackle",
+        "heightInCentimeters": 200.66,
+        "weightInKilograms": 136.078,
+        "pros": [
+            "Terrific overall athlete. Looked like a tight end when he scored a TD against WVU in 2019.",
+            "Can sink low and drive when he wants to at 6-foot-7. Six big-time blocks this past season.",
+            "Great at opening hips and riding rushers past the top of the pocket.",
+            "Three years of starting in pass-heavy offense between both tackle positions."
+        ],
+        "cons": [
+            "Shuffle out in pass protection leaves him off balance and unable to adjust quickly.",
+            "Dreaded waist bender. Slips off blocks too easily because of it.",
+            "Late out of his stance a noticeable number of times on tape.",
+            "Tendency to play high in pass protection. Leaves himself very susceptible to bull rush."
+        ]
+    }
+]
